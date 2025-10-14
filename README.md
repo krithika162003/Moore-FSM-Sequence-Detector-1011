@@ -1,11 +1,10 @@
 # 💡 Moore FSM Sequence Detector — 1011 (Overlapping)
 
 ## 🧩 Overview
-This project demonstrates the design and implementation of a **Moore Finite State Machine (FSM)** that detects the binary sequence **`1011`**.  
+This project demonstrates the design and implementation of a **Moore Finite State Machine (FSM)** that detects the binary sequence **`1011`**. Unlike the Mealy FSM, the **Moore FSM** output depends **only on the current state**, providing stable and predictable output timing. This design supports **overlapping sequence detection**, where consecutive sequences can share bits.
 The FSM is written in **Verilog HDL**, simulated using **Xilinx ISE Design Suite**, and verified on an **FPGA Trainer Kit**.
 
-Unlike the Mealy FSM, the **Moore FSM** output depends **only on the current state**, providing stable and predictable output timing.  
-This design supports **overlapping sequence detection**, where consecutive sequences can share bits.
+
 
 ---
 
@@ -94,5 +93,3 @@ In this project, a **Moore FSM** is implemented for the detection of the sequenc
 `FSM` · `Moore Machine` · `Sequence Detector` · `Verilog HDL` · `FPGA` · `Xilinx ISE` · `VLSI`
 
 ---
-
-## 📦 Suggested Folder Structure
